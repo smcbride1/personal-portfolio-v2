@@ -1,0 +1,21 @@
+.education-details {
+    display: flex;
+    gap: 20px;
+}
+
+.education-details-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.education-details-school-name {
+    margin-top: -7px;
+}
+
+.education-details-dates {
+    margin-top: -30px;
+}
+
+.education-details-degree {
+    margin-top: -20px;
+}

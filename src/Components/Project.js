@@ -10,11 +10,11 @@ export default function Project(props) {
                 <>
                     <div className="project-details">
                         <div className="project-details-flex">
-                            <h1 className="project-details-title">{props.name}</h1>
+                            <h2 className="project-details-title">{props.name}</h2>
                             <a href={props.gitHubRepoURL} target="_blank" rel="noopener noreferrer" alt="github"><img className="github-link-icon" src={GitHubIcon}/></a>
                         </div>
                         <p className="project-details-text">{props.text}</p>
-                        <h2>Created with</h2>
+                        <p>Created with</p>
                         <div className="created-with-icon-container">{props.createdWithIcons}</div>
                     </div>
                     <div className="project-preview">
@@ -28,11 +28,11 @@ export default function Project(props) {
                     </div>
                     <div className="project-details">
                         <div className="project-details-flex">
-                            <h1 className="project-details-title">{props.name}</h1>
+                            <h2 className="project-details-title">{props.name}</h2>
                             <a href={props.gitHubRepoURL} target="_blank" rel="noopener noreferrer" alt="github"><img className="github-link-icon" src={GitHubIcon}/></a>
                         </div>
                         <p className="project-details-text">{props.text}</p>
-                        <h2>Created with</h2>
+                        <p>Created with</p>
                         <div className="created-with-icon-container">{props.createdWithIcons}</div>
                     </div>
                 </>}

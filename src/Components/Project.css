@@ -10,7 +10,7 @@
 }
 
 .project-preview-player {
-    border-radius: 40px;
+    border-radius: 26px;
 }
 
 .created-with {
@@ -36,7 +36,7 @@
 .github-link-icon {
     height: 30px;
     width: 30px;
-    margin-top: 10px;
+    margin-top: -2px;
 }
 
 .project-details-flex {

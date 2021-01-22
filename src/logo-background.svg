@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#1A1A1A;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{display:none;}
+	.st3{display:inline;fill:#4D4D4D;}
+	.st4{font-family:'Poppins-Bold';}
+	.st5{font-size:350.9826px;}
+	.st6{display:inline;fill:#F2F2F2;}
+	.st7{display:inline;fill:#999999;}
+</style>
+<polyline class="st0" points="0,127.9 214.8,0 512,0 512,256 0,256 "/>
+<polyline class="st0" points="512,384.1 297.2,512 0,512 0,256 512,256 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="92.8703" y1="-240.5991" x2="92.8703" y2="121.1436" gradientTransform="matrix(0.7071 0.7071 -0.7071 0.7071 147.296 235.3959)">
+	<stop  offset="0" style="stop-color:#ED1C24"/>
+	<stop  offset="1" style="stop-color:#1B1464"/>
+</linearGradient>
+<polygon class="st1" points="256.2,513.6 0.4,257.8 256.2,2 512,257.8 "/>
+<g class="st2">
+	<text transform="matrix(1 0 0 1 164.4937 372.5)" class="st3 st4 st5">S</text>
+	<polyline class="st3" points="329.7,210.4 362.1,196.3 352.7,176.5 316,193.5 	"/>
+	<polyline class="st3" points="225.8,130.1 189.1,146 181.8,163.1 256.3,135 	"/>
+	<polyline class="st3" points="281.9,382.9 321,365.8 298.4,349.9 	"/>
+	<text transform="matrix(1 0 0 1 132.0728 386.6289)" class="st6 st4 st5">S</text>
+	<polygon class="st7" points="146.8,312.9 179.2,298.7 242.9,298.7 210.7,312.9 	"/>
+</g>
+</svg>
