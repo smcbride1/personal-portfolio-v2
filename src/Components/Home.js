@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../logo.svg';
 import AboutMe from './AboutMe';
 import ProjectContainer from './ProjectContainer';
+import Title from './Title';
 import './Home.css';
 
 export default function Home() {
@@ -34,6 +35,9 @@ export default function Home() {
             </header>
             <div id="main">
                 <AboutMe/>
+                <br/>
+                <br/>
+                <Title name="Projects"/>
                 <ProjectContainer/>
             </div>
         </>

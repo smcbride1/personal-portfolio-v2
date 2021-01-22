@@ -10,14 +10,26 @@ import UE4Icon from '../ue4-icon.svg';
 import JavaScriptIcon from '../javascript-icon.svg';
 import RubyIcon from '../ruby-icon.svg';
 
-export default function ProjectContainer(props) {
+export default function ProjectContainer() {
     return (
         <>
-            <Project name="Corkboard" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." vimeoVideoID="496942605" gitHubRepoURL="https://github.com/smcbride1/corkboard-frontend" createdWithIcons={
-                        [<IconMin image={ReactIcon}/>,
-                        <IconMin image={ReduxIcon}/>,
-                        <IconMin image={RailsIcon}/>,
-                        <IconMin image={PostgreSQLIcon}/>]}/>
+            <div className="project-container">
+                <Project name="Corkboard" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." direction="0" vimeoVideoID="496942605" gitHubRepoURL="https://github.com/smcbride1/corkboard-frontend" createdWithIcons={
+                            [<IconMin image={ReactIcon}/>,
+                            <IconMin image={ReduxIcon}/>,
+                            <IconMin image={RailsIcon}/>,
+                            <IconMin image={PostgreSQLIcon}/>]}/>
+                <Project name="Corkboard" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." direction="1" vimeoVideoID="496942605" gitHubRepoURL="https://github.com/smcbride1/corkboard-frontend" createdWithIcons={
+                            [<IconMin image={ReactIcon}/>,
+                            <IconMin image={ReduxIcon}/>,
+                            <IconMin image={RailsIcon}/>,
+                            <IconMin image={PostgreSQLIcon}/>]}/>
+                <Project name="Corkboard" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." direction="0" vimeoVideoID="496942605" gitHubRepoURL="https://github.com/smcbride1/corkboard-frontend" createdWithIcons={
+                            [<IconMin image={ReactIcon}/>,
+                            <IconMin image={ReduxIcon}/>,
+                            <IconMin image={RailsIcon}/>,
+                            <IconMin image={PostgreSQLIcon}/>]}/>
+            </div>
         </>
     )
 }

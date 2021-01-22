@@ -5,7 +5,8 @@
 }
 
 .project-details {
-    width: 800px;
+    width: 50%;
+    min-width: 480px;
 }
 
 .project-preview-player {
@@ -41,4 +42,10 @@
 .project-details-flex {
     display: flex;
     gap: 20px;
+}
+
+@media only screen and (max-width: 1590px) {
+    .project-flex {
+        flex-direction: column;
+    }
 }

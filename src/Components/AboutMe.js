@@ -41,6 +41,14 @@ export default function AboutMe() {
                         <Icon image={PostgreSQLIcon} name="PGSQL"/>
                         <Icon image={UE4Icon} name="UE4"/>
                     </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <p>The languages I specialize in are</p>
                     <div className="skills-icon-container">
                         <Icon image={JavaScriptIcon} name="JAVASCRIPT"/>

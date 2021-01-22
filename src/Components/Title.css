@@ -1,0 +1,9 @@
+.title-flex {
+    display: flex;
+    gap: 40px;
+}
+
+.line {
+    width: fill;
+    margin-top: 10px;
+}
