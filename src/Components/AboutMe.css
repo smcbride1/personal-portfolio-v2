@@ -1,0 +1,31 @@
+.decor-text {
+    margin-top: -60px;
+    margin-bottom: -10px;
+}
+
+#about-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-me-details {
+    width: 800px;
+}
+
+#skills {
+    text-align: right;
+    display: inline;
+}
+
+.skills-icon-container {
+    display: flex;
+    gap: 20px;
+    float: right;
+    padding-bottom: 40px;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    padding-right: 20px
+}

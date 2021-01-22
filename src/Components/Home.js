@@ -1,8 +1,9 @@
 import React from 'react';
 import Logo from '../logo.svg';
+import AboutMe from './AboutMe';
 import './Home.css';
 
-function Home() {
+export default function Home() {
     return (
         <>
             <header>
@@ -30,9 +31,9 @@ function Home() {
                     </ul>
                 </nav>
             </header>
-            <p>Hello World</p>
+            <div id="main">
+                <AboutMe/>
+            </div>
         </>
     )
 }
-
-export default Home;
