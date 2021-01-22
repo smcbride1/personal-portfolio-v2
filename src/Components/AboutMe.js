@@ -5,7 +5,7 @@ import ReactIcon from '../react-icon.svg';
 import ReduxIcon from '../redux-icon.svg';
 import RailsIcon from '../rails-icon.svg';
 import PostgreSQLIcon from '../postgresql-icon.svg';
-import UE4Icon from '../ue4-icon.svg';
+import UE4Icon from '../ue4-icon-dark.svg';
 import JavaScriptIcon from '../javascript-icon.svg';
 import RubyIcon from '../ruby-icon.svg';
 import MailIcon from '../mail-icon.svg';
