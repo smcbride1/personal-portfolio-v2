@@ -32,9 +32,6 @@ export default function Home() {
                         <a href="#resume">Resume</a>
                         </li>
                         <li>
-                        <a href="#contact">Contact</a>
-                        </li>
-                        <li>
                         <a href="https://medium.com/@stephenmcbride" target="_blank">Blog</a>
                         </li>
                     </ul>

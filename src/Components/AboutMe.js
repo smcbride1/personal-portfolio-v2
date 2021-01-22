@@ -33,6 +33,7 @@ export default function AboutMe() {
                     </a>
                 </div>
                 <div id="skills">
+                    <h2 className="skills-header">Skills</h2>
                     <p>I have experience developing with</p>
                     <div className="skills-icon-container">
                         <Icon image={ReactIcon} name="REACT"/>

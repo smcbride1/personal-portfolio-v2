@@ -30,3 +30,22 @@ h1.decor-text {
         margin: 0px 10px;
     }
 }
+
+body {
+    background: linear-gradient(-45deg, #ffddb6, #ff9a72, #ffd8bb, #ffe0b7);
+    /* background: linear-gradient(-45deg, #824dff, #5f9fff, #4274d3, #e730ff); */
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
