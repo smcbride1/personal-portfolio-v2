@@ -1,0 +1,44 @@
+.project-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.project-details {
+    width: 800px;
+}
+
+.project-preview-player {
+    border-radius: 40px;
+}
+
+.created-with {
+    text-align: right;
+    display: inline;
+}
+
+.project-details-text {
+    margin-top: -20px;
+}
+
+.project-details-title {
+    margin-top: -10px;
+}
+
+.created-with-icon-container {
+    display: flex;
+    gap: 20px;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.github-link-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.project-details-flex {
+    display: flex;
+    gap: 20px;
+}

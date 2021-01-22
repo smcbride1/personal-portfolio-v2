@@ -15,7 +15,7 @@ import LinkedInIcon from '../linkedin-icon.svg';
 export default function AboutMe() {
     return (
         <>
-            <div id="about-flex">
+            <div id="about-me-flex">
                 <div id="about-me-details">
                     <h1>Hi, I'm</h1>
                     <h1 className="decor-text">Stephen</h1>
@@ -28,7 +28,7 @@ export default function AboutMe() {
                     <a href="tel:401-400-1749">
                         <img className="contact-icon" src={PhoneIcon} alt="phone"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/stephenjmcbride/"  target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/stephenjmcbride/" target="_blank" rel="noopener noreferrer">
                         <img className="contact-icon" src={LinkedInIcon} alt="linkedin"/>
                     </a>
                 </div>
