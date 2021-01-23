@@ -9,7 +9,20 @@ import EducationDetailsContainer from './EducationDetailsContainer';
 import './Home.css';
 
 export default function Home() {
-    const toggleTheme = () => {
+    useEffect(() => {
+        if (localStorage.getItem('theme') === 'dark') {
+            toggleTheme(true);
+        } else if(localStorage.getItem('theme') === '') {
+            localStorage.setItem('theme', 'light');
+        } else if(localStorage.getItem('theme') === null) {
+            localStorage.setItem('theme', 'light');
+        };
+    })
+    const toggleTheme = (load) => {
+        console.log(!!load);
+        if (!load) {
+            localStorage.setItem('theme', (localStorage.getItem('theme') === 'light' ? 'dark' : 'light'));
+        }
         let aArray = document.getElementsByTagName("a");
         for (let i = 0; i < aArray.length; i++) {
             aArray[i].classList.toggle("theme-dark-a");
@@ -45,7 +58,7 @@ export default function Home() {
     return (
         <>
             <header>
-                <a id="logo-container" onClick={toggleTheme} href="#">
+                <a id="logo-container" onClick={() => {toggleTheme(false)}} href="#">
                     <div className="logos">
                         <img src={Logo} className="header-logo"/>
                         <img src={LogoBackground} className="header-logo-background"/>
