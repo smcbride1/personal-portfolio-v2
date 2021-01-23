@@ -11,6 +11,7 @@
     left: 20px;
     top: 20px;
     animation: rotate-in 0.8s ease;
+    transition: transform 0.8s ease;
 }
 
 .header-logo-foreground {
@@ -22,7 +23,8 @@
 }
 
 .logos:hover > .header-logo-background {
-    animation: rotate-out 0.8s ease;
+    transform: rotate(360deg);
+    /* animation: rotate-out 0.8s ease; */
 }
 
 @keyframes rotate-in {

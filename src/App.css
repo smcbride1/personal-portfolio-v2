@@ -2,8 +2,16 @@ a {
     text-decoration: none;
 }
 
+.theme-dark-a {
+    color:#f5f5f5;
+}
+
 p {
     font-size: 16pt;
+}
+
+.theme-dark-p {
+    color:#d8d8d8;
 }
 
 h1 {
@@ -11,14 +19,26 @@ h1 {
     font-weight: 400;
 }
 
+.theme-dark-h1 {
+    color:#f3f3f3;
+}
+
+h1.decor-text {
+    font-size: 96pt;
+    font-weight: 500;
+}
+
+.theme-dark-h1-decor-text {
+    color:#f5f5f5;
+}
+
 h2 {
     font-size: 24pt;
     font-weight: 600;
 }
 
-h1.decor-text {
-    font-size: 96pt;
-    font-weight: 400;
+.theme-dark-h2 {
+    color:#ececec;
 }
 
 #main {
@@ -36,6 +56,10 @@ body {
     /* background: linear-gradient(-45deg, #824dff, #5f9fff, #4274d3, #e730ff); */
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
+}
+
+.theme-dark-body {
+    background: linear-gradient(-45deg, #120f2b, #130e2b, #0f122b, #0c1936);
 }
 
 @keyframes gradient {
