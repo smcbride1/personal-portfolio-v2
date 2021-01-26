@@ -58,13 +58,16 @@ export default function Home() {
     return (
         <>
             <header>
-                <a id="logo-container" onClick={() => {toggleTheme(false)}} href="#">
-                    <div className="logos">
-                        <img src={Logo} className="header-logo"/>
-                        <img src={LogoBackground} className="header-logo-background"/>
-                        <img src={LogoForeground} className="header-logo-foreground"/>
-                    </div>
-                </a>
+                {/* <a id="logo-container" onClick={() => {toggleTheme(false)}} href="#">
+                </a> */}
+                <div className="logos">
+                    <img src={Logo} className="header-logo"/>
+                    <input type="checkbox" id="logo-container-checkbox"/>
+                    <img src={LogoBackground} className="header-logo-background"/>
+                    <label for="logo-container-checkbox">
+                        <img src={LogoForeground} className="header-logo-foreground" onClick={() => {toggleTheme(false)}}/>
+                    </label>
+                </div>
                 <nav className="nav_links">
                     <ul>
                         <li>

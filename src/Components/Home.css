@@ -20,9 +20,14 @@
     position: absolute;
     left: 20px;
     top: 20px;
+    cursor: pointer;
 }
 
-.logos:hover > .header-logo-background {
+#logo-container-checkbox {
+    display: none;
+}
+
+#logo-container-checkbox:checked ~ .header-logo-background {
     transform: rotate(360deg);
     /* animation: rotate-out 0.8s ease; */
 }
