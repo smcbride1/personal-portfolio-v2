@@ -52,7 +52,8 @@ h2 {
 }
 
 body {
-    background: linear-gradient(-45deg, #ffddb6, #ff9a72, #ffd8bb, #ffe0b7);
+    background: linear-gradient(-45deg, #ff5151, #ffc17a, #ff966d, #ff8a6d);
+    /* orange bg: background: linear-gradient(-45deg, #ffddb6, #ff9a72, #ffd8bb, #ffe0b7); */
     /* background: linear-gradient(-45deg, #824dff, #5f9fff, #4274d3, #e730ff); */
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;

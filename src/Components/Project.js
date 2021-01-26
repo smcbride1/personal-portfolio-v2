@@ -1,6 +1,7 @@
 import React from 'react';
 import './Project.css';
 import GitHubIcon from '../github-icon.svg';
+import Carosel from './Carosel';
 
 export default function Project(props) {
     return (
@@ -18,13 +19,13 @@ export default function Project(props) {
                         <div className="created-with-icon-container">{props.createdWithIcons}</div>
                     </div>
                     <div className="project-preview">
-                        <iframe className="project-preview-player" src={`https://player.vimeo.com/video/${props.vimeoVideoID}?color=ffffff&portrait=0`} width="680" height="383" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        {props.previewType === "video" ? <iframe className="project-preview-player" src={`https://player.vimeo.com/video/${props.vimeoVideoID}?color=ffffff&portrait=0`} width="680" height="383" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> : <Carosel images={props.images}/>}
                     </div>
                 </>
                 :
                 <>
                     <div className="project-preview">
-                        <iframe className="project-preview-player" src={`https://player.vimeo.com/video/${props.vimeoVideoID}?color=ffffff&portrait=0`} width="680" height="383" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        {props.previewType === "video" ? <iframe className="project-preview-player" src={`https://player.vimeo.com/video/${props.vimeoVideoID}?color=ffffff&portrait=0`} width="680" height="383" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> : <Carosel images={props.images}/>}
                     </div>
                     <div className="project-details">
                         <div className="project-details-flex">

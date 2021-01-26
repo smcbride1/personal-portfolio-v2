@@ -1,0 +1,28 @@
+.carosel-arrow {
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 80px;
+}
+
+.carosel-arrow:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.carosel-right-arrow {
+    float: right;
+    margin-left: 630px;
+    margin-top: 151.5px;
+}
+
+.carosel-left-arrow {
+    transform: rotate(180deg);
+    margin-left: 20px;
+    margin-top: -236.5px;
+}
+
+.carosel-current-image-count {
+    margin-top: -60px;
+    margin-left: 320px;
+}
