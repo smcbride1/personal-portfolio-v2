@@ -10,13 +10,13 @@
 
 #about-me-details {
     width: 50%;
-    min-width: 480px;
+    min-width: 633px;
 }
 
 #skills {
     text-align: right;
     display: inline;
-    min-width: 480px;
+    min-width: 633px;
 }
 
 .skills-icon-container {
