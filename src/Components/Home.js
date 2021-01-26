@@ -15,7 +15,7 @@ export default function Home() {
         } else if(localStorage.getItem('theme') === '') {
             localStorage.setItem('theme', 'light');
         } else if(localStorage.getItem('theme') === null) {
-            localStorage.setItem('theme', 'light');
+            localStorage.setItem('theme', 'dark');//default theme
         };
         displayImageConsole('https://wiki.therofl98.co/w/images/5/5d/TTSCpedia_Stub_icon.gif');
     })
@@ -78,9 +78,18 @@ export default function Home() {
             h2Array[i].classList.toggle("theme-dark-h2");
         }
 
-        let lineArray = document.getElementsByClassName("line");
+        let svgArray = document.getElementsByClassName("themed-svg");
+        let svgThemeOn = false
+        for (let i = 0; i < svgArray.length; i++) {
+            svgArray[i].classList.toggle("theme-dark-svg");
+        }
+        for (let i = 0; i < svgArray.length; i++) {
+            svgArray[i].classList.toggle("theme-light-svg");
+        }
+
+        let lineArray = document.getElementsByTagName("line");
         for (let i = 0; i < lineArray.length; i++) {
-            lineArray[i].classList.toggle("theme-dark-line");
+            lineArray[i].classList.toggle("theme-dark-line-svg");
         }
 
         document.body.classList.toggle("theme-dark-body");

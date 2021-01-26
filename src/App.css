@@ -41,6 +41,18 @@ h2 {
     color:#ececec;
 }
 
+.theme-dark-svg {
+    filter: brightness(2)
+}
+
+.theme-light-svg {
+    filter: brightness(0)
+}
+
+.theme-dark-line-svg {
+    stroke: white;
+}
+
 #main {
     margin: 0px 200px;
 }

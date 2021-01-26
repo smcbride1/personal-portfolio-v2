@@ -5,7 +5,7 @@ import ReactIcon from '../react-icon.svg';
 import ReduxIcon from '../redux-icon.svg';
 import RailsIcon from '../rails-icon.svg';
 import PostgreSQLIcon from '../postgresql-icon.svg';
-import UE4Icon from '../ue4-icon-dark.svg';
+import UE4Icon from '../ue4-icon.svg';
 import JavaScriptIcon from '../javascript-icon.svg';
 import RubyIcon from '../ruby-icon.svg';
 import MailIcon from '../mail-icon.svg';
@@ -23,13 +23,13 @@ export default function AboutMe() {
                     <p>I recently graduated from Flatiron School's online Software Engineering program, and am currently looking for employment in the Web Development or Game Development field.</p>
                     <p>I'd love to hear from you, let's get a conversation going!</p>
                     <a href="mailto:stevemcbride3@gmail.com">
-                        <img className="contact-icon" src={MailIcon} alt="email"/>
+                        <img className="contact-icon themed-svg theme-light-svg" src={MailIcon} alt="email"/>
                     </a>
                     <a href="tel:401-400-1749">
-                        <img className="contact-icon" src={PhoneIcon} alt="phone"/>
+                        <img className="contact-icon themed-svg theme-light-svg" src={PhoneIcon} alt="phone"/>
                     </a>
                     <a href="https://www.linkedin.com/in/stephenjmcbride/" target="_blank" rel="noopener noreferrer">
-                        <img className="contact-icon" src={LinkedInIcon} alt="linkedin"/>
+                        <img className="contact-icon themed-svg theme-light-svg" src={LinkedInIcon} alt="linkedin"/>
                     </a>
                 </div>
                 <div id="skills">
@@ -40,7 +40,7 @@ export default function AboutMe() {
                         <Icon image={ReduxIcon} name="REDUX"/>
                         <Icon image={RailsIcon} name="RAILS"/>
                         <Icon image={PostgreSQLIcon} name="PGSQL"/>
-                        <Icon image={UE4Icon} name="UE4"/>
+                        <Icon image={UE4Icon} className="themed-svg theme-light-svg" name="UE4"/>
                     </div>
                     <br/>
                     <br/>

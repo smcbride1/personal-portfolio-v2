@@ -6,7 +6,7 @@ import ReactIcon from '../react-icon.svg';
 import ReduxIcon from '../redux-icon.svg';
 import RailsIcon from '../rails-icon.svg';
 import PostgreSQLIcon from '../postgresql-icon.svg';
-import UE4Icon from '../ue4-icon-dark.svg';
+import UE4Icon from '../ue4-icon.svg';
 import JavaScriptIcon from '../javascript-icon.svg';
 import RubyIcon from '../ruby-icon.svg';
 import PHPIcon from '../php-icon.svg';
@@ -67,20 +67,20 @@ Made sure that CSRF protection was enabled. " direction="1" previewType="video" 
                 The alien can either be AI controlled or player controlled, based on preference.
                 The goal of the survivors is to collect and/or upload important research by making their way through the facility's maze of hallways.
                 The goal of the alien is to stop the survivors. I am currently planning an adding a system where hallways and rooms will be procedurally generated." direction="0" previewType="image" images={SubterfugeImages} createdWithIcons={
-                            [<IconMin image={UE4Icon}/>]}/>
+                            [<IconMin className="themed-svg theme-light-svg" image={UE4Icon}/>]}/>
                 <Project name="Ultimate" text="Multiplayer PVP sports game that is based around Ultimate Frisbee.
                 Most of the rules follow the sport's unofficial rules, but some modifications were added for gameplay sake.
                 This project was originally created with a PHP backend. This wasn't ideal, because several systems that required real-time data
                 (invites, friend requests, messages, etc.) used long polling, which was slow and resource intensive. 
                 I currently plan on re-writing everything using websockets." direction="1" previewType="image" images={UltimateImages} createdWithIcons={
-                            [<IconMin image={UE4Icon}/>,
+                            [<IconMin className="themed-svg theme-light-svg" image={UE4Icon}/>,
                             <IconMin image={PHPIcon}/>]}/>
                 <Project name="Virtual Tabletop" text="This project is a virtual tabletop mainly meant for Dungeons & Dragons campaigns.
                 While there currently are many options out there for virtual tabletop software, most of them are 2D and top-down.
                 Some features that I plan to incorporate in my project that is unique or rare include mod support/Steam Workshop support, 
                 Steam platform support (invites), live real-time music synchronization and playlist support, and much more. This project is ambitious, 
                 but in my mind, it is fully doable." direction="0" previewType="image" images={VirtualTabletopImages} createdWithIcons={
-                            [<IconMin image={UE4Icon}/>]}/>
+                            [<IconMin className="themed-svg theme-light-svg" image={UE4Icon}/>]}/>
             </div>
         </>
     )

@@ -8,11 +8,13 @@
     gap: 40px;
 }
 
+line {
+    width: fill;
+    margin-top: 10px;
+    stroke: black;
+}
+
 .line {
     width: fill;
     margin-top: 10px;
-}
-
-.theme-dark-line {
-    fill: #ffffff;
 }

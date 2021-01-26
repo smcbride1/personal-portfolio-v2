@@ -3,7 +3,7 @@ import './Icon.css';
 
 export default function Icon(props) {
     return (
-        <div className="icon">
+        <div className={`${props.className} icon`}>
             <img className="icon-image" src={props.image}/>
             <p className="icon-name">{props.name}</p>
         </div>
