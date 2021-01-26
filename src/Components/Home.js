@@ -17,9 +17,39 @@ export default function Home() {
         } else if(localStorage.getItem('theme') === null) {
             localStorage.setItem('theme', 'light');
         };
+        displayImageConsole('https://wiki.therofl98.co/w/images/5/5d/TTSCpedia_Stub_icon.gif');
     })
+
+    const displayImageConsole = (url) => {
+        // Create a new `Image` instance
+        var image = new Image();
+      
+        image.onload = function() {
+          // Inside here we already have the dimensions of the loaded image
+          var style = [
+            // Hacky way of forcing image's viewport using `font-size` and `line-height`
+            'font-size: 1px;',
+            'line-height: ' + this.height % 2 + 'px;',
+      
+            // Hacky way of forcing a middle/center anchor point for the image
+            'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
+      
+            // Set image dimensions
+            'background-size: ' + this.width + 'px ' + this.height + 'px;',
+      
+            // Set image URL
+            'background: no-repeat url('+ url +');'
+           ].join(' ');
+      
+           // notice the space after %c
+           console.log('%c ', style);
+        };
+      
+        // Actually loads the image
+        image.src = url;
+    }
+    
     const toggleTheme = (load) => {
-        console.log(!!load);
         if (!load) {
             localStorage.setItem('theme', (localStorage.getItem('theme') === 'light' ? 'dark' : 'light'));
         }
